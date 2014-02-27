@@ -1,0 +1,16 @@
+Porting Arduino Due to Atmel studio and using SAM3S4A instead of SAX3X
+It can be used in place of the 32u4 , but with the memory and power of a Cortex-M3
+
+The port to Atmel studio is so that we can use JTAG ( SAM-ICE ) and some of the 
+other nice features of the IDE ( JTAG debugging and step into and out of code)
+
+In the root of the Repo there are .atsln and .atsuo files, These are the 
+Atmel Project files.
+
+It uses the CMSIS bundled with Atmel Studio ( not the one that comes with Arduino )
+
+TODO:
+it builds ( compiles the .o ), but the linker reports "undefined reference to UDD_FifiByteCount"
+and also to a few others from USBCore.cpp.
+
+Thats where we are atm...
