@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "Arduino_Due_Atmel_Studio_SAM3S", "Arduino_Due_Atmel_Studio\Arduino_Due_Atmel_Studio_SAM3S.cppproj", "{10E6A8B7-3444-4523-93FF-5AFD17EBA748}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10E6A8B7-3444-4523-93FF-5AFD17EBA748}.Debug|ARM.ActiveCfg = Debug|ARM
+		{10E6A8B7-3444-4523-93FF-5AFD17EBA748}.Debug|ARM.Build.0 = Debug|ARM
+		{10E6A8B7-3444-4523-93FF-5AFD17EBA748}.Release|ARM.ActiveCfg = Release|ARM
+		{10E6A8B7-3444-4523-93FF-5AFD17EBA748}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
